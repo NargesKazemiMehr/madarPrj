@@ -1,0 +1,27 @@
+body,html {
+  margin: 0;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont,'Tahoma' ,'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.has-error{
+  border-color: red;
+  color: red;
+ 
+}
+/* این مدیا کوئری برای حالتی است که وقتی صفحه به سایز موبایل در می آید عکس زیر فرم لاگین نمایش داده شود 
+.البته دیو پوشاننده این عناصر باید دارای کلاس فلکس و فلکس دایرکشن کالمن باشد*/
+@media screen and (max-width:602px)
+{
+  .loginForm{order: 1;}
+  .loginImage{order:2;}
+}
